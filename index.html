@@ -1,1 +1,82 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nandha Sundaravadivel - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Nandha Sundaravadivel</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Nice to meet you! My name is Nandha. I am currently pursuing my M.S. in Computer Science at Georgia Tech. While I mainly specialize in computing systems, this portfolio contains design work from an educational technology class I have taken. </p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="project">
+            <img src="project1.jpg" alt="Project 1">
+            <h3>Redesign of Clozemaster</h3>
+            <p>As part of my EdTech class at Georgia Tech, a group and I chose an application to redesign using the lense of language inequalities. Below I will summarize new and improved features developed to help non-english speaking users have a better experience with the app. </p>
+            <p>Clozemaster is a freemium language learning app targeted towards users that have had some experience in the language they are trying to learn. The main feature focuses on letting users fill in blanks on culturally contextualized sentences. </p>
+            <h4>Pain Points</h4>
+            <p>Through user research, our group found certain pain points whil using the app.</p>
+            <ul>
+                <li>Clozemaster currently contains very limited features to assess how well a user is learning their target language.</li>
+                <li>There are no features that promote user retention through gamification.</li>
+                <li>The app only focuses on flashcard style learning. While this is the main point of the app, diversification of learning styles are important for better knowledge retention. </li>
+                <li>Certain parts of the app are confusing, especially to a user whose native language is not English</li>
+                <li>For an app that boasts incorporation of cultural context, it does not do a good job of doing so.</li>
+            </ul>
+
+            <h4>Proposed Features</h4>
+            <p>Studying the pain points, our group proposed 5 new features to improve Clozemaster through the lense of Language Inequalities</p>
+            <div class="feature">
+                <H5>Feature 1: Add audio phonetics to flashcards so users can hear words they are selecting both in their native and learning language</H5>
+            </div>
+            <div class="feature">
+                <h5>Feature 2: Modify UI text on the application to also include translations from the user's native language.</h5>
+            </div>
+            <div class="feature">
+                <h5>Feature 3: Add lessons and videos to help a user understand the cultures and traditions of the language they are learning.</h5>
+            </div>
+            <div class="feature">
+                <h5>Feature 4: Allow users learning the same language from the same original language to speed date and discuss prompted topics.</h5>
+            </div>
+            <div class="feature">
+                <h5>Feature 5: Incorporate mini-games to make learning more interactive</h5>
+            </div>
+        </div>
+
+        <h4>Design and Testing Process</h4>
+        <p>Below, I will provide general justifications to the design of our feature through the design and testing phases</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</body>
+
+</html>
